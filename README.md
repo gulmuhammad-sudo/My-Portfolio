@@ -1,2 +1,29 @@
 # My-Portfolio
-Responsive personal portfolio built with HTML, CSS, and JavaScript. Cybersecurity-themed design with smooth navigation, interactive elements, and a mobile-friendly layout to showcase projects, skills, and contact info.
+# Cybersecurity Portfolio Website
+
+A responsive personal portfolio website built with **HTML, CSS, and JavaScript**.  
+The design follows a **dark, cybersecurity-inspired theme**, with smooth navigation, interactive sections, and a mobile-friendly hamburger menu.  
+
+This portfolio highlights **projects, skills, labs, and contact details** in a professional and modern layout.
+
+---
+
+## 🔥 Features
+- Responsive design (mobile, tablet, desktop)  
+- Cybersecurity-inspired dark theme  
+- Interactive hero section with terminal-style panel  
+- Projects, About, Labs, and Contact sections  
+- Mobile navigation with hamburger menu  
+- Smooth scrolling and modern UI components  
+
+---
+
+## 📂 Project Structure
+```bash
+.
+├── index.html       # Main HTML file
+├── style.css        # Styles and responsive design
+├── scripts.js       # Interactivity and navbar toggle
+├── resume.pdf       # CV/Resume (optional)
+└── assets/          # Images, icons, or other resources
+xxxxxxxxxxc
