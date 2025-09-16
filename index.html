@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gul Muhammad - Cybersecurity Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔒</text></svg>">
+    <link rel="alternate icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>GM</text></svg>">
+    <link rel="apple-touch-icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔒</text></svg>">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-icon">GM</span>
+                    <div class="logo-text">
+                        <h1>Gul Muhammad</h1>
+                        <p>Cybersecurity Engineer</p>
+                    </div>
+                </a>
+            </div>
+
+            <nav class="nav">
+                <button class="hamburger" id="hamburger">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#labs">Labs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Gul Muhammad — <span class="text-gradient">Cybersecurity Engineer</span></h2>
+                    <p>Bridging red-team mindset with blue-team rigor to build resilient systems. Specializing in
+                        offensive security, network defense, and secure architecture.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        <a href="https://drive.google.com/file/d/1Jbd-fSSMxcPhOwoYYqOGm_9JS08ByBVX/view?usp=drive_link" class="btn btn-outline" download>Download CV</a>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Web Security</span>
+                        <span>Node.js</span>
+                        <span>React</span>
+                        <span>Network Forensics</span>
+                        <span>Penetration Testing</span>
+                    </div>
+                </div>
+
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="terminal-btn red"></span>
+                            <span class="terminal-btn yellow"></span>
+                            <span class="terminal-btn green"></span>
+                        </div>
+                        <span class="terminal-title">bash — 80×30</span>
+                    </div>
+                    <div class="terminal-body" id="terminal-content">
+                        <p><span class="terminal-prompt">gul@cybersec:~$</span> whoami</p>
+                        <p>Gul Muhammad - Cybersecurity Engineer</p>
+                        <p><span class="terminal-prompt">gul@cybersec:~$</span> cat skills.txt</p>
+                        <p>Penetration Testing | Network Security | Web App Security</p>
+                        <p>Digital Forensics | Threat Intelligence | Security Architecture</p>
+                        <p><span class="terminal-prompt">gul@cybersec:~$</span> <span class="terminal-cursor">_</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Security Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-tag">Penetration Testing</div>
+                    <h3>User Management System Pentest</h3>
+                    <p>Comprehensive security assessment of a user management system identifying 15+ vulnerabilities
+                        including IDOR and SQL injection.</p>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">View Report</a>
+                        <span class="project-year">2023</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-tag">Network Forensics</div>
+                    <h3>PCAP Analysis & Detection</h3>
+                    <p>Developed custom Snort rules and analysis scripts to detect and classify malicious network
+                        traffic from packet captures.</p>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">View Details</a>
+                        <span class="project-year">2023</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-tag">Tool Development</div>
+                    <h3>Automated Recon Toolkit</h3>
+                    <p>Built a modular reconnaissance tool that automates subdomain enumeration, service detection, and
+                        vulnerability scanning.</p>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">View Code</a>
+                        <span class="project-year">2022</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-tag">Incident Response</div>
+                    <h3>Ransomware Response Playbook</h3>
+                    <p>Created a comprehensive incident response guide for ransomware attacks, including containment and
+                        recovery procedures.</p>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">View Playbook</a>
+                        <span class="project-year">2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a cybersecurity professional with 1+ years of experience in both offensive and defensive
+                        security. My approach combines a hacker's mindset with rigorous security engineering principles
+                        to build and break systems.</p>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2021 - Present</div>
+                            <div class="timeline-content">
+                                <h3>Senior Security Engineer</h3>
+                                <p>TechSecure Inc.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2019 - 2021</div>
+                            <div class="timeline-content">
+                                <h3>Penetration Tester</h3>
+                                <p>CyberShield Solutions</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2017 - 2019</div>
+                            <div class="timeline-content">
+                                <h3>Security Analyst</h3>
+                                <p>DataGuard Systems</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2013 - 2017</div>
+                            <div class="timeline-content">
+                                <h3>BSc in Cybersecurity</h3>
+                                <p>University of Technology</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <div class="skills-panel">
+                        <h3>Skills</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Penetration Testing</span>
+                            <span class="skill-tag">Network Security</span>
+                            <span class="skill-tag">Web Application Security</span>
+                            <span class="skill-tag">Digital Forensics</span>
+                            <span class="skill-tag">Incident Response</span>
+                            <span class="skill-tag">Threat Intelligence</span>
+                            <span class="skill-tag">Security Architecture</span>
+                            <span class="skill-tag">Cloud Security</span>
+                        </div>
+                    </div>
+
+                    <div class="tools-panel">
+                        <h3>Tools & Technologies</h3>
+                        <div class="tools-list">
+                            <span class="tool-tag">Metasploit</span>
+                            <span class="tool-tag">Burp Suite</span>
+                            <span class="tool-tag">Wireshark</span>
+                            <span class="tool-tag">Nmap</span>
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">JavaScript</span>
+                            <span class="tool-tag">Snort</span>
+                            <span class="tool-tag">ELK Stack</span>
+                            <span class="tool-tag">AWS Security</span>
+                            <span class="tool-tag">Docker</span>
+                            <span class="tool-tag">Kali Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Labs Section -->
+    <section id="labs" class="labs">
+        <div class="container">
+            <h2 class="section-title">Security Labs</h2>
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-icon">📊</div>
+                    <h3>PCAP Visualizer</h3>
+                    <p>Interactive tool for analyzing network packet captures with visualization of traffic patterns and
+                        anomalies.</p>
+                    <a href="#" class="lab-link">View Demo</a>
+                </div>
+
+                <div class="lab-card">
+                    <div class="lab-icon">⌨️</div>
+                    <h3>Interactive Terminal</h3>
+                    <p>Browser-based terminal simulator with basic commands and cybersecurity challenges.</p>
+                    <a href="#" class="lab-link">Try It</a>
+                </div>
+
+                <div class="lab-card">
+                    <div class="lab-icon">🐛</div>
+                    <h3>Beginner's Bug Bounty Path</h3>
+                    <p>Step-by-step guide to getting started with bug bounty programs and responsible disclosure.</p>
+                    <a href="#" class="lab-link">Read Guide</a>
+                </div>
+
+                <div class="lab-card">
+                    <div class="lab-icon">🔒</div>
+                    <h3>Cryptography Challenge</h3>
+                    <p>Series of challenges covering encryption, hashing, and cryptographic vulnerabilities.</p>
+                    <a href="#" class="lab-link">Start Challenge</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <form class="contact-form" id="contact-form" action="https://formsubmit.co/ae652aa6e8a2d1fd88fbcf16fbca4bb4" method="POST">
+                <!-- FormSubmit.co configuration -->
+                <input type="hidden" name="_subject" value="New message from Gul Muhammad's Portfolio">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="thank-you.html">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_replyto" value="gul.memon.621@gmail.com">
+                
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name Here" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email Here" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message Here" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            
+            <div class="contact-info">
+                <p>For sensitive information, consider using my <a href="#">PGP key</a> for encrypted communication.</p>
+                <p>You can also reach me directly at: <a href="mailto:gul.memon.621@gmail.com">contact@gulmuhammad</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="current-year">2023</span> Gul Muhammad — Built with security in mind.</p>
+            <p class="footer-subtext">Made with ❤️ · Dark theme</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <span class="toast-message" id="toast-message"></span>
+    </div>
+
+    <!-- Canvas for Background Animation -->
+    <canvas id="cyberCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
