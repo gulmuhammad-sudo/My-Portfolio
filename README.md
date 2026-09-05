@@ -24,6 +24,4 @@ This portfolio highlights **projects, skills, labs, and contact details** in a p
 ├── index.html       # Main HTML file
 ├── style.css        # Styles and responsive design
 ├── scripts.js       # Interactivity and navbar toggle
-├── resume.pdf       # CV/Resume (optional)
-└── assets/          # Images, icons, or other resources
-xxxxxxxxxxc
+└── Thank You.html   # A Thank You Page
