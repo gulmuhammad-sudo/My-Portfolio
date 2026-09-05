@@ -119,15 +119,6 @@ For development, you can also use **Visual Studio Code + Live Server**.
 
 ---
 
-## 📸 Portfolio Preview
-
-Add a screenshot or GIF of the portfolio here:
-
-```text
-<img width="1896" height="865" alt="image" src="https://github.com/user-attachments/assets/594080ee-89cd-49d5-9350-cd5795cd10e8" />
-
-```
-
 ⭐ Support
 
 If you find this portfolio useful or interesting, consider giving the repository a ⭐ on GitHub.
