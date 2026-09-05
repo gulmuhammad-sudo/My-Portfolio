@@ -124,13 +124,16 @@ For development, you can also use **Visual Studio Code + Live Server**.
 Add a screenshot or GIF of the portfolio here:
 
 ```text
-Coming Soon 🚀
+<img width="1896" height="865" alt="image" src="https://github.com/user-attachments/assets/594080ee-89cd-49d5-9350-cd5795cd10e8" />
+
 ```
 
-<p align="center">
-  <strong>🔐 Secure. Monitor. Investigate. Defend.</strong>
-</p>
+⭐ Support
 
-<p align="center">
-  Made with ❤️ and a passion for Cybersecurity.
-</p>
+If you find this portfolio useful or interesting, consider giving the repository a ⭐ on GitHub.
+
+It helps support the project and motivates me to keep building!
+
+<p align="center"> <strong>🔐 Secure. Monitor. Investigate. Defend.</strong> </p>
+
+<p align="center"> Made with ❤️ and a passion for Cybersecurity. </p>
